@@ -9,7 +9,10 @@ var globals = require("./configs/globals"); // global variable
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: "https://main--comp2068-chatapp.netlify.app",
+    credentials: true
+}));
 
 
 mongoose

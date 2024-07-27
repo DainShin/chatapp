@@ -9,7 +9,8 @@ const httpServer = createServer(app);
 // 2. creating web socket server on top of the http server
 const io = new Server(httpServer, {
     cors: {
-        origin: "https://main--comp2068-chatapp.netlify.app/",
+        origin: "https://main--comp2068-chatapp.netlify.app",
+        methods: ["GET", "POST"],
         credentials: true,
     }
 });
