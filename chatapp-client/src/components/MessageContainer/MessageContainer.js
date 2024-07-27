@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./MessageContainer.css";
 import { Container } from "@mui/system";
 
@@ -21,6 +21,7 @@ const MessageContainer = ({ messageList, user }) => {
                 <img
                   src="/profile.jpeg"
                   className="profile-image"
+                  alt="Profile"
                   style={
                     (index === 0
                       ? { visibility: "visible" }
