@@ -18,7 +18,7 @@ function App() {
       setMessageList((prevState) => prevState.concat(message));
     });
     askUserName();
-  }, []);
+  }, []);  // empty array -> this executes once when the component firstly is rendered
 
   // using prompt window, accepting the user name
   const askUserName = () => {
