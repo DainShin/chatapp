@@ -61,20 +61,19 @@
 
 ## Frontend ##
 
-### Front-End Part
-1. Install NPM pachages
-    1. npm init -y
-    2. npm -i react, socket.io-client, web-vitals, webpack
+1. Install NPM packages
+    1) npm init -y
+    2) npm -i react, socket.io-client, web-vitals, webpack
 
 2. Frontend settings
-    1. Use socket.io-client to connect to our backend service in server.js
-    2. Use React to build a template of chat app
-    3. components got MessageContainer and InputField to build reusable components
-    4. App.js import socket, InputField, and MessageContainer from components
-    5. App.css and index.css file for styling
+    1) Use socket.io-client to connect to our backend service in server.js
+    2) Use React to build a template of chat app
+    3) components got MessageContainer and InputField to build reusable components
+    4) App.js import socket, InputField, and MessageContainer from components
+    5) App.css and index.css file for styling
 
 3. Creating the App Functionality
-    1. Use socket to listen from the server named “message”
-    2. askUserName function to setUser
-    3. sendMessage event to send the message that user input
-    4. return the message
+    1) Use socket to listen from the server named “message”
+    2) askUserName function to setUser
+    3) sendMessage event to send the message that user input
+    4) return the message
