@@ -1,5 +1,20 @@
 # Real Time Chat Application #
 
+## Snapshot
+
+<img width="537" alt="chatapp-demo" src="https://github.com/user-attachments/assets/761cdf15-dcdc-4fbc-b9ed-a40735c6b97b" />
+
+
+
+## Application Logic
+
+### Backend Logic
+<img width="990" alt="chatapp-backend" src="https://github.com/user-attachments/assets/ea8544ec-e329-4166-a75c-eb0b453ae121" />
+
+### Frontend Logic
+<img width="959" alt="chatapp-frontend" src="https://github.com/user-attachments/assets/58794e46-f231-47cf-ba5f-b41f4aa262e1" />
+
+
 ## Backend ##
 
 1. Install NPM packages
